@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/bg"
+              android:weightSum="1">
+
+        <!--
+        <com.google.ad.AdView
+                android:id="@+id/adView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                ad:adUnitId="ca-app-pub-9249562617917886/3767674456"
+                ads:adSize="BANNER"
+                ads:loadAdOncreate="true"
+                />
+
+        -->
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"
+            android:textColor="#ff4e94fa"
+            android:text="Eat Wise, Drop a size.\nStart Now..."
+
+            />
+    <EditText
+            android:id="@+id/weightEditText"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter your weight in Kg"
+            android:textCursorDrawable="@null"
+            android:background="@drawable/custom_bg_edit_text"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:inputType="numberDecimal"
+            android:textColor="#000"
+            android:ems="10"
+            android:paddingTop="15px">
+    </EditText>
+
+
+    <EditText
+            android:id="@+id/heightEditText"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter your height in cm"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_bg_edit_text"
+            android:textCursorDrawable="@null"
+            android:layout_marginTop="5dp"
+            android:inputType="numberDecimal"
+            android:textColor="#000"
+            android:ems="10" android:paddingTop="12px"/>
+
+
+<LinearLayout android:layout_width="wrap_content"
+              android:layout_height="wrap_content" android:layout_marginTop="15dp"
+              android:layout_gravity="center_horizontal">
+
+    <Button
+            android:id="@+id/clearButton"
+            android:layout_width="83dp"
+            android:layout_height="34dp"
+            android:textColor="#fff5faf6"
+            android:background="@drawable/custom_selector_button2"
+            android:text="Clear"
+            android:layout_weight="0.05" android:layout_marginRight="25dp"/>
+
+        <Button
+                android:id="@+id/resultButton"
+                android:layout_width="99dp"
+                android:layout_height="33dp"
+                android:textColor="#fff2faea"
+                android:text="Check me"
+                android:background="@drawable/custom_selector_button"
+
+                android:layout_gravity="center_horizontal"
+                />
+</LinearLayout>
+</LinearLayout>
+

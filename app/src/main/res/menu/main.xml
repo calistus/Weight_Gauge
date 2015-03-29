@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.weightgauge.MainActivity">
+
+    <item android:id="@+id/about_opt"
+    android:title="@string/about"
+    ></item>
+<item android:id="@+id/feedback_opt"
+      android:title="@string/feedback"
+        ></item>
+</menu>

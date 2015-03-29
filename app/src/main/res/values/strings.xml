@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Weight Gauge</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="heightPrompt">Enter you height in meters</string>
+    <string name="weightPrompt">Enter your weight in Kg</string>
+    <string name="result">RESULT</string>
+    <string name="history">History</string>
+    <string name="about">About</string>
+    <string name="feed">You can give us feedback @ icalistus@gmail.com</string>
+    <string name="feedback">Feedback</string>
+    <string name="aboutText">Weight Gauge helps you know the amount of fat in your body via your body mass index(BMI). It also sees your through
+        a weight normalization process if your BMI falls in the critical regions (Overweight or underweight)</string>
+    <string name="developer">This app was developed by Ilo Calistus.\nYou can contact Calistus @ icalistus@gmail.com\n or +2347039056183  </string>
+    <string name="help">Help</string>
+    <string name="OK">Ok</string>
+    <string name="errorTitle">Error</string>
+    <string name="errorMessage">The value you entered are incorrect. Please check the value and try again</string>
+    <string name="underWeightResult">"\nBMI status: You are Underweight\n"
+        + "Advantages: Advantages are limited"
+        + "\nDisadvantages: * Miscarriage and \n pregnancy problems"
+        + "\n * Male fertility issues"
+        + "\n * Lung problem during old age "
+        + "\n * Arthritis "
+        + "\n\nN.B: In order to bring your weight back to normal, please click on Advice me"
+    </string>
+    <string name="caption">Control Your Body Fat Starting Today...</string>
+    <string name="title_activity_history">History</string>
+</resources>
